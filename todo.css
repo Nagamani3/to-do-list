@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+body{
+    background-color: rgb(167, 167, 156);
+}
+header div nav{
+    background-color: rgb(0, 0, 0);
+
+}
+
+header div nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: aliceblue;
+
+}
+header div nav form input{
+    display: flex;
+    height: 45px;
+    width:50%;
+    align-items: center;
+    justify-content:center;
+    margin-left: 380px;
+    border-radius:4px;
+
+}
+header div nav form{
+    margin-bottom: 23px;
+    padding-bottom: 34px;
+}
+.todo-outer div h1{
+    margin-left:41%;
+    font-size: 45px;
+    display: flex;
+    display: inline;
+    margin-bottom: 4px;
+    color: rgb(0, 0, 0);
+}
+#addtaskinput{
+    margin-left:33%;
+    height: 45px;
+    width:35%;
+    border-radius:4px;
+    margin-top: 5px;
+
+}
+#addtaskbtn{
+margin-left: 12px;
+    border-radius:6px;
+    height:40px;
+    width:5% ;
+    margin-top: 5px;
+    background-color: rgb(6, 6, 7);
+    color: lavenderblush;
+
+}
+#savetaskbtn{
+    border-radius:6px;
+    height:40px;
+    width:5% ;
+    margin-top: 2px;
+    background-color: yellow;
+}
+#deleteallbtn{
+    border-radius:6px;
+    height:40px;
+    width:5% ;
+    margin-left: 4px;
+    margin-top: 5px;
+    background-color: rgb(243, 9, 9);
+    color: blanchedalmond;
+    
+}
+#task{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.to-do-output{
+    margin-left:32%;
+    margin-top: 8px;
+}
+#addedtasklist{
+    font-size:25px;
+}
+#edit{
+    border-radius:6px;
+    height:30px;
+    width:70px;
+    background-color: rgb(231, 219, 181);
+    color: rgb(0, 0, 0);
+    margin-left:30px;
+
+}
+#success{
+    border-radius:6px;
+    height:30px;
+    width:70px;
+    background-color: rgb(161, 212, 151);
+    color: rgb(0, 0, 0);
+
+}
+#delete{
+    border-radius:6px;
+    height:30px;
+    width:70px;
+    background-color: rgb(206, 144, 144);
+    color: rgb(2, 2, 2);
+
+}
+#addedtasklist{
+    display: flex;
+    background-color: rgb(218, 218, 207);
+    width: 53%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+    margin-left: 7px;
+    border-radius: 6px;
+
+}
+
